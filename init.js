@@ -1,4 +1,3 @@
-
 // top row cells creation
 let topRow = document.querySelector(".top_row");
 // left col cells creation
@@ -34,8 +33,8 @@ for (let i = 1; i <= 100; i++) {
     div.textContent = i;
     leftCol.appendChild(div)
 }
-// 2 d loop -> columns*rows
 
+// 2 d loop -> columns*rows
 for (let i = 0; i < 100; i++) {
     let row = document.createElement("div");
     row.setAttribute("class", "row");
